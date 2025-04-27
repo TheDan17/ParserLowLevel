@@ -1,6 +1,7 @@
-#include "stdio.h"
+#include "custom/custom.h"
 
-int main(int argc, char *argv[]) {
-    printf("Hello world");
+int main(){
+    set_config(create_config_default());
+
     return 0;
 }

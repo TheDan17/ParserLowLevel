@@ -1,0 +1,24 @@
+#ifndef CUSTOM_BUILD_H
+#define CUSTOM_BUILD_H
+
+
+#define PARSE_JSON      (1 << 0) // 00000001
+#define PARSE_XML       (1 << 1) // 00000010
+#define PARSE_HTML      (1 << 2) // 00000100
+#define PARSE_YAML      (1 << 3) // 00001000
+
+#define SERIALIZE_JSON  (1 << 4) // 00010000
+#define SERIALIZE_XML   (1 << 5) // 00100000
+#define SERIALIZE_HTML  (1 << 6) // 01000000
+#define SERIALIZE_YAML  (1 << 7) // 10000000
+
+#define PARSE_MODES     (PARSE_JSON | PARSE_XML | PARSE_HTML)
+#define SERIALIZE_MODES (SERIALIZE_JSON | SERIALIZE_XML | SERIALIZE_HTML)
+
+
+#define BUILD_WITH_ASM 0
+#define BUILD_WITH_LOGGING 1
+#define BUILD_WITH_INI_CONFIG 1
+
+
+#endif // CUSTOM_BUILD_H
