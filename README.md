@@ -1,6 +1,7 @@
 # ParserializeLowLevel
 > **Tech Name**: ParserializeLowLevel \
 > **Official Name**: [TBD]
+> **Russian README.md**: [file](https://github.com/TheDan17/ParserializeLowLevel/blob/main/README-ru.md)
 
 ## Overview
 This library is primarily designed as a stand-alone library with no dependencies, implemented in low-level C, with inline assembly. \
